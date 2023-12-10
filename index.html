@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <script type="module" src="./style.css"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="nav-logo">
+          <img
+            src="./public/assets/logo3/My Portfolio-logos_transparent.png"
+            alt="logo"
+          />
+        </div>
+        <div class="nav-menu">
+          <ul class="nav-menu-items">
+            <li><a href="/">Home</li></a>
+            <li><a href="/">About</li></a>
+            <li><a href="/">Services</li></a>
+            <li><a href="/">Projects</li></a>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="first-section">
+        <div class="left-section">
+          I am <span class="name">Moses</span>
+          <div>and I am passinate for</div>
+          <div>building <span id="animate"></span></div>
+        </div>
+        <div class="right-section">
+          <img src="./public/assets/pngwing3.png" alt="" />
+        </div>
+      </div>
+      <div class="second-section"></div>
+    </main>
+  </body>
+  <script>
+    var typed = new Typed('#animate', {
+      strings: ['<i>good software applications.</i>'],
+      typeSpeed: 50,
+    });
+  </script>
+</html>

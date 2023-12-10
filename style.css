@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Variables */
+:root {
+  --font-one: "Poppins", sans-serif;
+  /* --test-border: 5px solid red; */
+  --color-text: white;
+  --color-2: #e7ff0c;
+  --color-background: #011d42;
+  --color-background-gradient: linear-gradient(90deg, #011d42 0%, #5f14a7 100%);
+}
+
+body {
+  background-color: var(--color-background);
+  background-image: var(--color-background-gradient);
+  color: var(--color-text);
+  font-family: var(--font-one);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5rem;
+  height: 5rem;
+  background-color: #5641afa8;
+}
+
+.navbar img {
+  width: 10rem;
+}
+
+.navbar .nav-menu-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+#animate {
+  color: var(--color-2);
+}
+
+/* Main */
+.first-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 2rem;
+  margin: 2rem;
+}
+
+.first-section div {
+  border: var(--test-border);
+}
+
+main img {
+  height: 25rem;
+  border-radius: 2rem;
+}
+
+/* utility */
+.name {
+  color: var(--color-2);
+}
