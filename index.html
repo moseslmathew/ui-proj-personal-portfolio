@@ -14,6 +14,7 @@
       rel="stylesheet"
     />
   </head>
+
   <body>
     <header>
       <nav class="navbar">
@@ -25,10 +26,16 @@
         </div>
         <div class="nav-menu">
           <ul class="nav-menu-items">
-            <li><a href="/">Home</li></a>
-            <li><a href="/">About</li></a>
-            <li><a href="/">Services</li></a>
-            <li><a href="/">Projects</li></a>
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li>
+              <a href="/">About</a>
+            </li>
+            <li><a href="/">Services </a></li>
+            <li>
+              <a href="/">Projects</a>
+            </li>
           </ul>
         </div>
       </nav>
@@ -39,28 +46,94 @@
           I am <span class="name">Roboo</span>
           <div>and I am passinate for</div>
           <div>building <span id="animate"></span></div>
+          <button>Download Resume</button>
         </div>
         <div class="right-section">
           <img src="./public/assets/pngwing3.png" alt="" />
         </div>
       </div>
-      <hr>
+      <hr />
       <section class="second-section">
         <span class="text-exp">What I have done so far</span>
         <h3 class="exp">Work Experience</h3>
-        <div class="exp-timeline">
-          <div class="exp-timeline-landmarks"></div>
-          <div class="exp-timeline-landmarks"></div>
-          <div class="exp-timeline-landmarks"></div>
-          <div class="exp-timeline-landmarks"></div>
-          <div class="exp-timeline-landmarks"></div>
+        <div class="exp-horizontal-line">
+          <div class="exp-vertical-line">
+            <div class="exp-logo">
+              <img
+                class="exp-image-top"
+                src="./public/assets/logo4/tech-mahindra-logo.png"
+                alt=""
+              />
+            </div>
+            <div class="exp-vertical-title">
+              Software Tester - Tech Mahindra (2010-2012)
+            </div>
+            <div class="exp-vertical-Desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
+              minima!
+            </div>
+          </div>
+          <div class="exp-vertical-line">
+            <div class="exp-logo">
+              <img
+                class="exp-image-top"
+                src="./public/assets/logo4/philips-logo.png"
+                alt=""
+              />
+            </div>
+            <div class="exp-vertical-title">
+              Software Tester -Philips (2013-2015)
+            </div>
+            <div class="exp-vertical-Desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
+              minima!
+            </div>
+          </div>
+          <div class="exp-vertical-line">
+            <div class="exp-logo">
+              <img
+                class="exp-image-top"
+                src="./public/assets/logo4/ARS.png"
+                alt=""
+              />
+            </div>
+            <div class="exp-vertical-title">
+              Software Tester - ARS (2015-2016)
+            </div>
+            <div class="exp-vertical-Desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
+              minima!
+            </div>
+          </div>
+          <div class="exp-vertical-line">
+            <div class="exp-logo">
+              <img
+                class="exp-image-top"
+                src="./public/assets/logo4/Finastra.png"
+                alt=""
+              />
+            </div>
+            <div class="exp-vertical-title">
+              Sr. Product Owner - Finastra (2016-Current)
+            </div>
+            <div class="exp-vertical-Desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
+              minima!
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section>
+        <div class="second-section">
+          <h3 class="exp">My Projects</h3>
         </div>
       </section>
     </main>
   </body>
   <script>
-    var typed = new Typed('#animate', {
-      strings: ['<i>good software applications.</i>'],
+    var typed = new Typed("#animate", {
+      strings: ["<i>good software applications.</i>"],
       typeSpeed: 50,
     });
   </script>
